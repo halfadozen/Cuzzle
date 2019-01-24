@@ -35,13 +35,9 @@ public class PlayerController : BaseBehaviour
         }
     }
 
-    public int startX;
-    public int startZ;
-    public int currentX;
-    public int currentZ;
-    public int targetX;
-    public int targetZ;
-    public int distanceToMove;
+    public int targetX { get; set; }
+    public int targetZ { get; set; }
+    public int distanceToMove { get; set; }
 
     public float normalSpeed = 5.0f;
     public float slowSpeed = 2.0f;
@@ -49,7 +45,7 @@ public class PlayerController : BaseBehaviour
     public float currentSpeed;
 
     public bool movable = true;
-    public bool isMoving = false;
+ 
     public bool isSlowed = false;
     public bool isPlaying = false;
 
