@@ -10,8 +10,8 @@ Material:
   m_Name: moveableWallMat
   m_Shader: {fileID: 4800000, guid: 5e5b1ea4ab96d4d62916cd804fe4fae1, type: 3}
   m_ShaderKeywords: _AA_ON _ALPHAPREMULTIPLY_ON _BACK_COLOR_SOLID _BOTTOM_COLOR_NONE
-    _FADE_BOTTOM _FRONT_COLOR_SOLID _LEFT_COLOR_SOLID _LIGHTMAP_ON _MIXCOLOR_ON _MODE_BARY
-    _QUAD_ON _RIGHT_COLOR_SOLID _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _TOP_COLOR_GRADIENT
+    _FADE_NONE _FRONT_COLOR_SOLID _LEFT_COLOR_SOLID _LIGHTMAP_ON _MIXCOLOR_ON _MODE_BARY
+    _QUAD_ON _RIGHT_COLOR_SOLID _SHADOW_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _TOP_COLOR_SOLID
     _UV_SPACE_CAMERA _WLIGHT_SURFACE _WSTYLE_DEFAULT _WUV_UV0
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -98,7 +98,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DontMix: 0
     - _DstBlend: 0
-    - _FADE: 2
+    - _FADE: 0
     - _FDist: 0.1
     - _FMode: 1
     - _FPow: 5
@@ -168,7 +168,7 @@ Material:
     - _Shading_L: 0
     - _Shading_R: 0
     - _Shading_T: 2
-    - _Shadow: 0
+    - _Shadow: 1
     - _ShadowPower: 0.5
     - _ShowAO: 0
     - _ShowAmbientSettings: 0
@@ -187,7 +187,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TOP_COLOR: 2
+    - _TOP_COLOR: 1
     - _TopColorPosition3: 0
     - _TopColorRotation: 0
     - _TwoSided: 1
@@ -210,15 +210,15 @@ Material:
     m_Colors:
     - _AOColor: {r: 1, g: 1, b: 1, a: 1}
     - _AmbientColor: {r: 0, g: 0, b: 0, a: 0}
-    - _BackColor: {r: 0.3529412, g: 0.42352945, b: 0.6313726, a: 1}
-    - _BackColor1: {r: 0.08199989, g: 1, b: 0.51399994, a: 1}
-    - _BackColor2: {r: 1, g: 0.08199989, b: 0.624, a: 1}
-    - _BackColor3: {r: 1, g: 0.08199989, b: 0.624, a: 1}
+    - _BackColor: {r: 0.35294116, g: 0.42352942, b: 0.6313726, a: 1}
+    - _BackColor1: {r: 0.08199986, g: 1, b: 0.51399994, a: 1}
+    - _BackColor2: {r: 1, g: 0.08199986, b: 0.624, a: 1}
+    - _BackColor3: {r: 1, g: 0.08199986, b: 0.624, a: 1}
     - _BackColorPosition: {r: 0, g: 1, b: 0, a: 1}
     - _BottomColor: {r: 0, g: 0.835, b: 1, a: 1}
     - _BottomColor1: {r: 0.66699994, g: 0.851, b: 0.937, a: 1}
-    - _BottomColor2: {r: 0.28999987, g: 0.8, b: 0.19999987, a: 1}
-    - _BottomColor3: {r: 0.28999987, g: 0.8, b: 0.19999987, a: 1}
+    - _BottomColor2: {r: 0.28999984, g: 0.8, b: 0.19999984, a: 1}
+    - _BottomColor3: {r: 0.28999984, g: 0.8, b: 0.19999984, a: 1}
     - _BottomColorPosition: {r: 0, g: 1, b: 0, a: 1}
     - _Color: {r: 0.25882357, g: 0.50001365, b: 0.972549, a: 1}
     - _Color1: {r: 0.35479704, g: 0.42326528, b: 0.6320754, a: 1}
@@ -236,15 +236,15 @@ Material:
     - _Color2_R: {r: 1, g: 1, b: 1, a: 1}
     - _Color2_T: {r: 0.17254902, g: 0.3254902, b: 0.39215687, a: 1}
     - _Color_Fog: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _DefaultColor: {r: 0.354797, g: 0.42326525, b: 0.6320754, a: 1}
+    - _DefaultColor: {r: 0.35479698, g: 0.42326522, b: 0.6320754, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FadeColor: {r: 0.184472, g: 0.2213664, b: 0.32999995, a: 1}
+    - _FadeColor: {r: 0.18447196, g: 0.22136638, b: 0.32999992, a: 1}
     - _FadePower: {r: 0, g: 0.99999994, b: 0, a: 1}
-    - _FrontColor: {r: 0.354797, g: 0.42326525, b: 0.6320754, a: 1}
+    - _FrontColor: {r: 0.35479698, g: 0.42326522, b: 0.6320754, a: 1}
     - _FrontColor1: {r: 0.66699994, g: 0.851, b: 0.937, a: 1}
-    - _FrontColor2: {r: 0.28999987, g: 0.8, b: 0.19999987, a: 1}
-    - _FrontColor3: {r: 0.28999987, g: 0.8, b: 0.19999987, a: 1}
+    - _FrontColor2: {r: 0.28999984, g: 0.8, b: 0.19999984, a: 1}
+    - _FrontColor3: {r: 0.28999984, g: 0.8, b: 0.19999984, a: 1}
     - _FrontColorPosition: {r: 0, g: 1, b: 0, a: 1}
     - _GColor: {r: 0, g: 0, b: 0, a: 1}
     - _GizmoPosition_B: {r: 0, g: 0, b: 10, a: 10}
@@ -261,22 +261,22 @@ Material:
     - _GradientYStartPos_L: {r: 0, g: 0, b: 0, a: 0}
     - _GradientYStartPos_R: {r: 0, g: 0, b: 0, a: 0}
     - _LMColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LeftColor: {r: 0.3529412, g: 0.42352945, b: 0.6313726, a: 1}
+    - _LeftColor: {r: 0.18447196, g: 0.22136638, b: 0.32999992, a: 1}
     - _LeftColor1: {r: 0.765, g: 0.522, b: 0.4589998, a: 1}
     - _LeftColor2: {r: 0.97999996, g: 0.859, b: 0.706, a: 1}
     - _LeftColor3: {r: 0.97999996, g: 0.859, b: 0.706, a: 1}
     - _LeftColorPosition: {r: 0, g: 1, b: 0, a: 1}
-    - _RightColor: {r: 0.3529412, g: 0.42352945, b: 0.6313726, a: 1}
+    - _RightColor: {r: 0.4501686, g: 0.49610758, b: 0.6313726, a: 1}
     - _RightColor1: {r: 0.937, g: 0.765, b: 1, a: 1}
-    - _RightColor2: {r: 0.7369999, g: 0.0709999, b: 0.984, a: 1}
-    - _RightColor3: {r: 0.7369999, g: 0.0709999, b: 0.984, a: 1}
+    - _RightColor2: {r: 0.7369999, g: 0.07099988, b: 0.984, a: 1}
+    - _RightColor3: {r: 0.7369999, g: 0.07099988, b: 0.984, a: 1}
     - _RightColorPosition: {r: 0, g: 1, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowColor: {r: 0.6, g: 0.5, b: 0.5, a: 1}
+    - _ShadowColor: {r: 0.44099995, g: 0.44099995, b: 0.44099995, a: 1}
     - _TintColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TopColor: {r: 0.95699996, g: 1, b: 0.686, a: 1}
-    - _TopColor1: {r: 0.184472, g: 0.2213664, b: 0.32999995, a: 1}
-    - _TopColor2: {r: 0.28999987, g: 0.8, b: 0.19999987, a: 1}
-    - _TopColor3: {r: 0.354797, g: 0.42326525, b: 0.6320754, a: 1}
+    - _TopColor: {r: 0.35479698, g: 0.42326522, b: 0.6320754, a: 1}
+    - _TopColor1: {r: 0.18447196, g: 0.22136638, b: 0.32999992, a: 1}
+    - _TopColor2: {r: 0.28999984, g: 0.8, b: 0.19999984, a: 1}
+    - _TopColor3: {r: 0.35479698, g: 0.42326522, b: 0.6320754, a: 1}
     - _TopColorPosition: {r: 0.32904553, g: 1, b: 0, a: 1}
     - _WColor: {r: 0, g: 0, b: 0, a: 1}
