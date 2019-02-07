@@ -1,4 +1,0 @@
-var annotated_dup =
-[
-    [ "GridFramework", "namespace_grid_framework.html", "namespace_grid_framework" ]
-];

@@ -1,2 +1,0 @@
-# Cuzzle
-Cube Puzzle Cuzzle
